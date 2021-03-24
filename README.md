@@ -1,6 +1,7 @@
 The [npm](https://docs.npmjs.com/cli/v6/configuring-npm/install#windows-node-version-managers)/[Microsoft](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows)/Google recommended **Node.js version manager for _Windows_**.
 
 # This is not the same thing as nvm.
+
 _The original [nvm](https://github.com/nvm-sh/nvm) is a completely separate project for Mac/Linux only._ This project uses an entirely different philosophy and is not just a clone of nvm. Details are listed in the [Why another version manager?](https://github.com/coreybutler/nvm-windows#why-another-version-manager) and [what's the big difference?](https://github.com/coreybutler/nvm-windows#whats-the-big-difference) sections.
 
 ## Like this project?
@@ -23,7 +24,7 @@ Please see the [Common Issues](https://github.com/coreybutler/nvm-windows/wiki/C
 
 Manage multiple installations of node.js on a Windows computer.
 
-**tl;dr** Similar (not identical) to [nvm](https://github.com/creationix/nvm), but for Windows. Has an installer. [Download Now](https://github.com/coreybutler/nvm-windows/releases)! This has always been a node version manager, not an io.js manager, so there is no back-support for io.js. However, node 4+ is supported. Remember when running `nvm install` or `nvm use`, you must have Windows administrative rights (to create symlinks).
+**tl;dr** Similar (not identical) to [nvm](https://github.com/creationix/uikgtjfknvm), but for Windows. Has an installer. [Download Now](https://github.com/coreybutler/nvm-windows/releases)! This has always been a node version manager, not an io.js manager, so there is no back-support for io.js. However, node 4+ is supported. Remember when running `nvm install` or `nvm use`, you must have Windows administrative rights (to create symlinks).
 
 ![NVM for Windows](http://i.imgur.com/BNlcbi4.png)
 
@@ -52,6 +53,7 @@ _If NVM4W doesn't appear to work immediately after installation, restart the ter
 #### Reinstall any global utilities
 
 After install, reinstalling global utilities (e.g. yarn) will have to be done for each installed version of node:
+
 ```
 nvm use 14.0.0
 npm install -g yarn
@@ -107,12 +109,9 @@ See the [wiki](https://github.com/coreybutler/nvm-windows/wiki/Common-Issues#how
 - Execute `go get github.com/blang/semver`
 - Execute `go get github.com/olekukonko/tablewriter`
 - Execute `build.bat`
-- Check the `dist`directory for generated setup program. 
-
+- Check the `dist`directory for generated setup program.
 
 ---
-
-
 
 ## Why another version manager?
 
@@ -179,7 +178,7 @@ MIT.
 
 ## Thanks
 
-Thanks to everyone who has submitted issues on and off Github, made suggestions, and generally helped make this a better project. Special thanks to 
+Thanks to everyone who has submitted issues on and off Github, made suggestions, and generally helped make this a better project. Special thanks to
 
 - [@vkbansal](https://github.com/vkbansal), who provided significant early feedback throughout the early releases.
 - [@rainabba](https://github.com/rainabba) and [@sullivanpt](https://github.com/sullivanpt) for getting Node v4 support integrated.
